@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar {
+    background-color: #9BC4E2;
+    font: 'white';
+}
+
+#nav {
+  display: flex;
+  margin-left: 2em;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#rightSide {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
