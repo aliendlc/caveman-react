@@ -10,17 +10,13 @@ const NavBar = () => {
                 id="nav"
                 className="nav-collapse collapse">
                     <a
-                    href='./Home'
+                    href='/'
                     id="title"
-                    style={{fontSize: 40, }}
+                    style={{fontSize: 30, }}
                     className="brand">caveman collaborative</a>
                     <ul
                     id="rightSide"
                     className="right">
-                        <li><Link className='Nav_link' 
-                            activeStyle={{ color: 'teal' }}
-                            to="/">
-                            Home</Link></li>
                         <li><NavLink className='Nav_link' 
                             activeStyle={{ color: 'teal' }}
                             to="/AboutUs">

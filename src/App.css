@@ -43,9 +43,12 @@
 }
 
 #nav {
-  display: flex;
   margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 a {
   text-decoration: none;
 }
@@ -53,16 +56,17 @@ a {
 ul {
   list-style-type: none;
   color: 'white';
+  width: 40%;
+  justify-content: space-evenly;
 }
 
 li {
-  
+
 }
 
 #rightSide {
   display: flex;
-  width: 50%;
-  justify-content: space-between;
+
 }
 
 .Nav_link {
@@ -75,4 +79,28 @@ li {
 
 .Nav_link:hover {
   color: yellow;
+}
+
+.home_link:hover {
+  color: yellow;
+}
+
+.brand {
+  color: white;
+}
+
+.home_link {
+  color: white;
+}
+.Nav_link:active {
+  color: teal;
+}
+
+body {
+  background-color: #9BC4E2;
+}
+
+.homeBottom {
+  background-color: white;
+  height: 10em;
 }
