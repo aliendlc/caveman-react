@@ -40,6 +40,7 @@
 .navBar {
     background-color: #9BC4E2;
     font: 'white';
+    height: 3.5em;
 }
 
 #nav {
@@ -74,7 +75,7 @@ li {
   font-size: 1.1rem;
   line-height: 1.1rem;
   text-decoration: none;
-  
+
 }
 
 .Nav_link:hover {
@@ -97,10 +98,42 @@ li {
 }
 
 body {
-  background-color: #9BC4E2;
+  background-color: #white;
+  height: 100%;
 }
 
 .homeBottom {
   background-color: white;
   height: 10em;
+}
+.people {
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid #9BC4E2;
+  padding-bottom: 2em;
+}
+.bio {
+  text-align: center;
+  width: 50%;
+}
+.services {
+  text-align: center;
+  width: 50%;
+  list-style-type: none;
+}
+footer {
+    background-color: #9BC4E2;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .75em;
+    width: 100%;
+}
+img {
+  width: 15em;
+  padding:1px;
+  border:1px solid #021a40;
+  background-color:#9BC4E2;
 }

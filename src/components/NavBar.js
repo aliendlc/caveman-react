@@ -17,16 +17,16 @@ const NavBar = () => {
                     <ul
                     id="rightSide"
                     className="right">
-                        <li><NavLink className='Nav_link' 
-                            activeStyle={{ color: 'teal' }}
+                        <li><NavLink className='Nav_link'
+                            activeStyle={{ textDecoration: 'underline white' }}
                             to="/AboutUs">
                             About Us</NavLink></li>
-                        <li><NavLink className='Nav_link' 
-                            activeStyle={{ color: 'teal' }}
+                        <li><NavLink className='Nav_link'
+                            activeStyle={{ textDecoration: 'underline white' }}
                             to="/OurWork">
                             Our Work</NavLink></li>
-                        <li><NavLink className='Nav_link' 
-                            activeStyle={{ color: 'teal' }}
+                        <li><NavLink className='Nav_link'
+                            activeStyle={{ textDecoration: 'underline white' }}
                             to="/ContactUs">
                             Contact Us</NavLink></li>
                     </ul>

@@ -19,6 +19,7 @@ function App() {
                 <Route path='/OurWork' component={OurWork} />
                 <Route path='/ContactUs' component={ContactUs} />
             </div>
+            <footer/>
         </BrowserRouter>
     );
 }
