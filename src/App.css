@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .App-logo {
@@ -18,8 +19,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -38,16 +38,30 @@
 }
 
 .navBar {
-    background-color: #9BC4E2;
-    font: 'white';
-    height: 3.5em;
+    background-color: transparent;
+    font: 'black';
+    float: left;
+    position: fixed;
+    top: 0;
+    align-items: flex-start;
+
+}
+
+footer {
+    background-color: #1d1145;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .75em;
+    width: 100%;
 }
 
 #nav {
-  margin-left: 2em;
-  display: flex;
+  margin-left: .5em;
   justify-content: space-between;
-  align-items: center;
+  align-content: flex-start;
 }
 
 a {
@@ -56,22 +70,25 @@ a {
 
 ul {
   list-style-type: none;
-  color: 'white';
+  color: 'black';
   width: 40%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 100%;
 }
 
-li {
-
+.serviceLi {
+  height: 100%;
+  padding: 1em;
 }
 
 #rightSide {
-  display: flex;
+
 
 }
 
 .Nav_link {
-  color: #fff;
+  color: black;
   font-size: 1.1rem;
   line-height: 1.1rem;
   text-decoration: none;
@@ -79,19 +96,20 @@ li {
 }
 
 .Nav_link:hover {
-  color: yellow;
+  color: teal;
 }
 
 .home_link:hover {
-  color: yellow;
+  color: teal;
 }
 
 .brand {
-  color: white;
+  color: black;
+  display: block;
 }
 
 .home_link {
-  color: white;
+  color: black;
 }
 .Nav_link:active {
   color: teal;
@@ -100,6 +118,7 @@ li {
 body {
   background-color: #white;
   height: 100%;
+  padding-top: 3em;
 }
 
 .homeBottom {
@@ -109,8 +128,9 @@ body {
 .people {
   display: flex;
   align-items: center;
-  border-bottom:1px solid #9BC4E2;
+  border-bottom:1px solid #51d0de;
   padding-bottom: 2em;
+  padding-left: 10em;
 }
 .bio {
   text-align: center;
@@ -118,22 +138,29 @@ body {
 }
 .services {
   text-align: center;
+  height: 100%;
   width: 50%;
   list-style-type: none;
+  align-content: space-around;
+  background-color: #DFDCE3;
+  color: white;
 }
-footer {
-    background-color: #9BC4E2;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: .75em;
-    width: 100%;
-}
+
+
+
 img {
   width: 15em;
   padding:1px;
   border:1px solid #021a40;
-  background-color:#9BC4E2;
+  background-color:#51d0de;
+}
+
+.aboutUs {
+  padding-bottom: 3em;
+}
+.intro {
+  background-color: #FC4A1A;
+  color: white;
+  padding:10px;
+  border:.5px solid grey;
 }

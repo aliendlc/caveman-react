@@ -12,21 +12,26 @@ const NavBar = () => {
                     <a
                     href='/'
                     id="title"
-                    style={{fontSize: 30, }}
-                    className="brand">caveman collaborative</a>
+                    style={{fontSize: 22 }}
+                    className="brand">caveman</a>
+                    <a
+                    href='/'
+                    id="title"
+                    style={{fontSize: 22 }}
+                    className="brand"> collaborative</a>
                     <ul
                     id="rightSide"
                     className="right">
                         <li><NavLink className='Nav_link'
-                            activeStyle={{ textDecoration: 'underline white' }}
+                            activeStyle={{ textDecoration: 'underline black' }}
                             to="/AboutUs">
                             About Us</NavLink></li>
                         <li><NavLink className='Nav_link'
-                            activeStyle={{ textDecoration: 'underline white' }}
+                            activeStyle={{ textDecoration: 'underline black' }}
                             to="/OurWork">
                             Our Work</NavLink></li>
                         <li><NavLink className='Nav_link'
-                            activeStyle={{ textDecoration: 'underline white' }}
+                            activeStyle={{ textDecoration: 'underline black' }}
                             to="/ContactUs">
                             Contact Us</NavLink></li>
                     </ul>
