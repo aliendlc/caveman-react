@@ -17,7 +17,7 @@ class AboutUs extends Component {
             <div class='aboutUs'>
                 <div class='people'>
                     <div class='bio'>
-                        <h2>Head Caveman</h2>
+                        <h2>Caveman</h2>
                         <img alt='not yet here' src={JCDLC}></img>
                         <p>Jose Carlos de la Colina Horta</p>
                         <p class='intro'> I invite you to browse through all of our bios and services to see if we can find a solution for you</p>
