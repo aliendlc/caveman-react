@@ -20,7 +20,7 @@ class AboutUs extends Component {
                         <h2>Caveman</h2>
                         <img alt='not yet here' src={JCDLC}></img>
                         <p>Jose Carlos de la Colina Horta</p>
-                        <p class='intro'> I invite you to browse through all of our bios and services to see if we can find a solution for you</p>
+                        <p class='intro'> I invite you to browse through all of our bios and services to see if we can find a solution for you. ****</p>
                     </div>
                     <div class='services'>
                         <h4>Services</h4>
