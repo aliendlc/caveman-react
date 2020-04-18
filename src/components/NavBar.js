@@ -25,15 +25,15 @@ const NavBar = () => {
                         <li><NavLink className='Nav_link'
                             activeStyle={{ textDecoration: 'underline black' }}
                             to="/AboutUs">
-                            About Us</NavLink></li>
+                            Team</NavLink></li>
                         <li><NavLink className='Nav_link'
                             activeStyle={{ textDecoration: 'underline black' }}
                             to="/OurWork">
-                            Our Work</NavLink></li>
+                            Work</NavLink></li>
                         <li><NavLink className='Nav_link'
                             activeStyle={{ textDecoration: 'underline black' }}
                             to="/ContactUs">
-                            Contact Us</NavLink></li>
+                            Contact</NavLink></li>
                     </ul>
                 </div>
             </nav>
